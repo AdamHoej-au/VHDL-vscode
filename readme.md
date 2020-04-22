@@ -210,7 +210,7 @@ make program    -- Programmere projektet til boardet.
     - `std` <kbd>TAB</kbd> giver `std_logic_vecter(7 downtown 0)`
 - [VHDL Formatter](https://marketplace.visualstudio.com/items?itemName=Vinrobot.vhdl-formatter)
 
-  - Formattering af VHDL kode
+  - Formattering af VHDL kode - <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd>
 
     ```vhdl
     if <conditional> then
