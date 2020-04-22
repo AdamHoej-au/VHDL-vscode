@@ -248,4 +248,4 @@ make program    -- Programmere projektet til boardet.
 
 ## Eksempel
 
-Der ligger i [vhdleksempel](https://github.com/AdamHoej-au/VHDL-VS Code/tree/master/vhdl%20eksempel) mappen, et fuldt eksempel der kan køre i VS Code.
+Der ligger i [vhdleksempel](https://github.com/AdamHoej-au/VHDL-VSCode/tree/master/vhdl%20eksempel) mappen, et fuldt eksempel der kan køre i VS Code.
