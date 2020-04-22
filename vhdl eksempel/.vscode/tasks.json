@@ -1,0 +1,57 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile",
+      "type": "shell",
+      "windows": {
+        "command": "make"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    },
+
+    {
+      "label": "Clean",
+      "type": "shell",
+      "windows": {
+        "command": "make clean"
+      },
+      "problemMatcher": []
+    },
+
+    {
+      "label": "Program",
+      "type": "shell",
+      "windows": {
+        "command": "make program"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+
+    {
+      "label": "Timing",
+      "type": "shell",
+      "windows": {
+        "command": "make timing"
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    }
+  ]
+}

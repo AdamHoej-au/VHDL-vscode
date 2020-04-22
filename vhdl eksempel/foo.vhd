@@ -1,0 +1,14 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.ALL;
+USE IEEE.numeric_std.ALL;
+USE work.ALL;
+
+ENTITY foo IS
+
+END ENTITY foo;
+
+ARCHITECTURE rtl OF foo IS
+
+BEGIN
+
+END ARCHITECTURE rtl;

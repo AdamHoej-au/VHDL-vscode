@@ -1,0 +1,8 @@
+{
+    "files.exclude": {
+        "**/*.*.rpt": true,
+        "**/*.vhd.*": true
+    },
+    "editor.fontFamily": "Consolas",
+    "editor.fontSize": 12
+}
