@@ -205,9 +205,15 @@ make program    -- Programmere projektet til boardet.
 
 ## Anbefalede extensions
 
-- [Modern VHDL](https://marketplace.visualstudio.com/items?itemName=rjyoung.VS Code-modern-vhdl-support)
+- [Modern VHDL](https://marketplace.visualstudio.com/items?itemName=rjyoung.VSCode-modern-vhdl-support)
   - Syntax highlighting og snippets
-    - `std` <kbd>TAB</kbd> giver `std_logic_vecter(7 downtown 0)`
+    - `std` + <kbd>TAB</kbd> giver `std_logic_vecter(7 downtown 0)`
+    - `ieee`+ <kbd>TAB</kbd> giver:
+    ```vhdl 
+    library IEEE; 
+    use IEEE.std_logic_1164.all; 
+    use IEEE.numeric_std.all;
+    ``` 
 - [VHDL Formatter](https://marketplace.visualstudio.com/items?itemName=Vinrobot.vhdl-formatter)
 
   - Formattering af VHDL kode - <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+<kbd>F</kbd>
